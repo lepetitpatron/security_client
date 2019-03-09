@@ -9,7 +9,7 @@ class Auth
     auth0 = new auth0.WebAuth({
         domain: 'menounyhamza.eu.auth0.com',
         clientID: '6AOeyKe6b63aEOResFg4tDbvMrq9Pc2u',
-        redirectUri: 'http://localhost:3000/callback',
+        redirectUri: 'https://security-hm-yh.netlify.com/callback',
         responseType: 'token id_token',
         audience: 'developers',
         scope: 'openid apname.read'
