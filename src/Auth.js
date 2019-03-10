@@ -57,7 +57,7 @@ class Auth
         localStorage.removeItem('access_token');
         localStorage.removeItem('id_token');
         localStorage.removeItem('expires_at');
-        window.location.href = 'https://menounyhamza.eu.auth0.com/v2/logout?returnTo=http%3A%2F%2Flocalhost%3A3000%2Flogout&client_id=6AOeyKe6b63aEOResFg4tDbvMrq9Pc2u';
+        window.location.href = 'https://menounyhamza.eu.auth0.com/v2/logout?returnTo=https://security-hm-yh.netlify.com/logout';
     }
 }
 
