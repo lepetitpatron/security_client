@@ -17,7 +17,7 @@ class Profile extends Component
         const ACCESS_TOKEN = localStorage.getItem('access_token');
         const HEADERS = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
 
-        fetch('api/developers', {headers: HEADERS})
+        fetch('https://security-hm-yh.herokuapp.com/api/developers', {headers: HEADERS})
         .then(res => res.json())
         .then(developers => this.setState({developers}))
     }
