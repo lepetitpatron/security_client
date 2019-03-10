@@ -18,7 +18,7 @@ class Profile extends Component
         const HEADERS = {'Authorization': 'Bearer ' + ACCESS_TOKEN}
 
         fetch('api/developers', {headers: HEADERS})
-        .then(res => JSON.parse(res))
+        .then(res => res.json())
         .then(developers => this.setState({developers}))
     }
 
