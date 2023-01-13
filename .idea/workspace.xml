@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e5da6d7-0a0f-4c0f-86e3-8ab37da8b5ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/nodejs.yml" afterDir="false" />
+    <list default="true" id="3e5da6d7-0a0f-4c0f-86e3-8ab37da8b5ce" name="Changes" comment="Adding a workflow">
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673604398625</updated>
-      <workItem from="1673604400378" duration="102000" />
+      <workItem from="1673604400378" duration="831000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding a workflow">
+      <created>1673604537239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673604537239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -51,5 +59,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding a workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a workflow" />
   </component>
 </project>

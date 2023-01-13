@@ -3,7 +3,7 @@ import auth0 from 'auth0-js';
 const LOGIN_SUCCESS_PAGE = '/profile';
 const LOGIN_FAILURE_PAGE = '/';
 
-{/* Code van de Auth0 documentatie */}
+/* Code van de Auth0 documentatie */
 class Auth 
 {
     auth0 = new auth0.WebAuth({
