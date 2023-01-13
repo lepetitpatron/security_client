@@ -12,7 +12,7 @@ class Logout extends Component
         return (
             <header className='Main'>
                 <img src={this.props.logo} className='logo' alt='Logo' />
-                <h1>Uitloggen..</h1>
+                <h1>Uitloggen...</h1>
             </header>
         );
     }
