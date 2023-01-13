@@ -11,7 +11,7 @@ import Logout from './components/LogOut';
 
 const auth = new Auth();
 
-{/* Alle components werden door ons aangemaakt. De App component werd volledig herschreven.*/}
+/* Alle components werden door ons aangemaakt. De App component werd volledig herschreven.*/
 class App extends Component 
 {
   render() 
